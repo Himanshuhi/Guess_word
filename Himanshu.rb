@@ -1,4 +1,4 @@
-class Hangman
+class Himanshu
     def initialize(word)
       @word = word.downcase
       @guesses = []
@@ -6,7 +6,7 @@ class Hangman
     end
   
     def play
-      puts "Welcome to Hangman!"
+      puts "Welcome to Himzo game!"
       puts "You will now have to answer 5 questions on programming languages."
       puts "Each question will have a hint in the format '- _ - ...'"
       puts "Guess a letter to fill in the blanks, or guess the whole word."
@@ -70,6 +70,6 @@ class Hangman
     end
   end
   
-  game = Hangman.new("")
+  game = Himanshu.new("")
   game.play
   
